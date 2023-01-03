@@ -11,6 +11,12 @@
 		0EAB45D2296106E100C73388 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB45D1296106E100C73388 /* ContentView.swift */; };
 		0EAB45D4296106E300C73388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAB45D3296106E300C73388 /* Assets.xcassets */; };
 		0EAB45D7296106E300C73388 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAB45D6296106E300C73388 /* Preview Assets.xcassets */; };
+		0EAB45DE29610D6A00C73388 /* ImageLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB45DD29610D6A00C73388 /* ImageLabelView.swift */; };
+		0EAB45E029610EF600C73388 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB45DF29610EF600C73388 /* User.swift */; };
+		0EAB45E22961353800C73388 /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB45E12961353800C73388 /* Visit.swift */; };
+		0EAB45E42961359C00C73388 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB45E32961359C00C73388 /* CardView.swift */; };
+		0EAB45E62963BE1600C73388 /* VisitorInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB45E52963BE1600C73388 /* VisitorInfoView.swift */; };
+		0EAB45E82963C56C00C73388 /* Barview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB45E72963C56C00C73388 /* Barview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		0EAB45D1296106E100C73388 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0EAB45D3296106E300C73388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EAB45D6296106E300C73388 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0EAB45DD29610D6A00C73388 /* ImageLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabelView.swift; sourceTree = "<group>"; };
+		0EAB45DF29610EF600C73388 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0EAB45E12961353800C73388 /* Visit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visit.swift; sourceTree = "<group>"; };
+		0EAB45E32961359C00C73388 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0EAB45E52963BE1600C73388 /* VisitorInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorInfoView.swift; sourceTree = "<group>"; };
+		0EAB45E72963C56C00C73388 /* Barview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,12 @@
 				0EAB45D1296106E100C73388 /* ContentView.swift */,
 				0EAB45D3296106E300C73388 /* Assets.xcassets */,
 				0EAB45D5296106E300C73388 /* Preview Content */,
+				0EAB45DD29610D6A00C73388 /* ImageLabelView.swift */,
+				0EAB45DF29610EF600C73388 /* User.swift */,
+				0EAB45E12961353800C73388 /* Visit.swift */,
+				0EAB45E32961359C00C73388 /* CardView.swift */,
+				0EAB45E52963BE1600C73388 /* VisitorInfoView.swift */,
+				0EAB45E72963C56C00C73388 /* Barview.swift */,
 			);
 			path = QuickCard;
 			sourceTree = "<group>";
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAB45E82963C56C00C73388 /* Barview.swift in Sources */,
+				0EAB45E62963BE1600C73388 /* VisitorInfoView.swift in Sources */,
+				0EAB45E029610EF600C73388 /* User.swift in Sources */,
+				0EAB45DE29610D6A00C73388 /* ImageLabelView.swift in Sources */,
 				0EAB45D2296106E100C73388 /* ContentView.swift in Sources */,
+				0EAB45E22961353800C73388 /* Visit.swift in Sources */,
+				0EAB45E42961359C00C73388 /* CardView.swift in Sources */,
 				0EAB45D0296106E100C73388 /* QuickCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
